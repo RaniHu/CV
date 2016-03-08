@@ -1,3 +1,3 @@
 # RaniHu.github.io
 我的个人简历
-地址:github.com/RaniHu/CV
+地址:https://github.com/RaniHu
