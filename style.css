@@ -163,7 +163,7 @@ li{
 }
 
 #contact-me{
-    margin-top: 126px;
+    margin-top: 128px;
     margin-left: 18px;
 }
 #contact-me li{
@@ -193,6 +193,11 @@ li{
 
 
 }
+#contact-me a{
+    color:#f1eee8 ;
+    text-decoration: none;
+}
+
 
 /*主要个人经历等信息*/
 .main-info{
