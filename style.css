@@ -163,7 +163,7 @@ li{
 }
 
 #contact-me{
-    margin-top: 128px;
+    margin-top: 100px;
     margin-left: 18px;
 }
 #contact-me li{
@@ -175,29 +175,15 @@ li{
     text-align: left;
     margin: 6px 0;
 }
-/*#contact-me li .contact-icon{
-    float: left;
-    width:28px;
-    height: 28px;
-    background-color: #f0f1f1;
-    border-radius: 50%;
-    overflow: hidden;
 
-}*/
-/*#contact-me li .contact-icon img{
-    margin: 0 auto;
-}*/
 #contact-me li p{
     float: left;
     line-height: 20px;
-
-
 }
 #contact-me a{
-    color:#f1eee8 ;
+    color: #f1eee8;
     text-decoration: none;
 }
-
 
 /*主要个人经历等信息*/
 .main-info{
@@ -245,18 +231,32 @@ li{
     width: 88%;
     height: 27%;
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 55px;
 
 }
 
 .main-info .detail-info{
     margin: 10px 0;
 }
+.main-info .experience  h1{
+    width: 190px;
+    float: left;
+}
+.online-cv {
+    display: block;
+    color: #5dc3b1;
+    font-size: 14px;
+    font-weight: bold;
+}
+.online-cv a{
+    color: #5dc3b1;
+    text-decoration: none;
+}
 
 /*技能清单*/
 .main-info .skill-list{
     width: 88%;
-    height: 42%;
+    height: 36%;
     margin: 0 auto;
-    padding-top: 3px;
+    padding-top: 20px;
 }
