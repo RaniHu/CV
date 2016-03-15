@@ -241,7 +241,7 @@ li{
 }
 .main-info .experience  h1{
     width: 190px;
-    float: left;
+    /*float: left;*/
 }
 .online-cv {
     display: block;
