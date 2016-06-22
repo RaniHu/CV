@@ -134,7 +134,7 @@ li{
     color: #f1eee8;
     line-height: 20px;
     width: 65px;
-    text-align: c;
+    text-align: center;
 }
 
 .personal-info .skill #skill-tip li .skill-wrap{
@@ -223,7 +223,7 @@ li{
     height: 24%;
     width: 88%;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 5px;
 
 }
 
@@ -259,5 +259,5 @@ li{
     width: 88%;
     height: 36%;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 35px;
 }
