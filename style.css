@@ -18,6 +18,14 @@ li{
     clear: both;
 }
 
+h2,h3{
+    font-size:16px;
+    font-weight: bold;
+    color: #5dc3b1;
+    margin: 10px 6px;
+}
+
+
 /*简历外层*/
 #container{
     width: 794px;
@@ -205,8 +213,8 @@ li{
     margin:5px 6px ;
 }
 
-.main-info p,.experience a{
-    height: 15px;
+.main-info .contact  p, .experience a , .award p{
+    height: 20px;
     font-size:16px;
     font-weight: bold;
     color: #5dc3b1;
@@ -215,12 +223,12 @@ li{
 
 
 }
-.main-info div{
+.main-info div , .skill-list p{
     font-size: 14px;
     color: #6b6b6b;
     margin-left: 6px;
     margin-top: 8px;
-    line-height: 18px;
+    /*line-height: 18px;*/
 
 }
 /*获奖经历*/
@@ -228,16 +236,16 @@ li{
     height: 24%;
     width: 88%;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 26px;
 
 }
 
 /*项目经验*/
 .main-info .experience{
     width: 88%;
-    height: 35%;
+    height: 38%;
     margin: 0 auto;
-    padding-top: 38px;
+    padding-top: 45px;
 
 }
 .main-info .experience .detail-info {
@@ -265,9 +273,9 @@ li{
 /*技能清单*/
 .main-info .skill-list{
     width: 88%;
-    height: 32%;
+    height: 25%;
     margin: 0 auto;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 .online-cv{
