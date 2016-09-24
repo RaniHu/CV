@@ -11,6 +11,9 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 li{
     list-style-type: none;
 }
@@ -225,7 +228,7 @@ h2,h3{
 }
 .main-info div , .skill-list p{
     font-size: 14px;
-    color: #6b6b6b;
+    color: #565656;
     margin-left: 6px;
     margin-top: 8px;
     /*line-height: 18px;*/
@@ -255,10 +258,10 @@ h2,h3{
 .main-info .detail-info{
     margin: 10px 0;
 }
-.main-info .experience  h1{
-    width: 190px;
-    /*float: left;*/
+.main-info .detail-info a:hover{
+    text-decoration: underline;
 }
+
 .online-cv {
     display: block;
     color: #5dc3b1;
