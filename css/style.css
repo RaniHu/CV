@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+li {
+  list-style-type: none; }
+
+.clearfix {
+  clear: both; }
+
+body {
+  font-family: "Microsoft YaHei", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  min-width: 1080px;
+  background-color: #e0e0e0;
+  cursor: default; }
+
+h2, h3 {
+  font-weight: bold;
+  color: #5dc3b1; }
+
+/*简历外层*/
+#container {
+  width: 794px;
+  height: 1090px;
+  margin: 40px auto;
+  position: relative; }
+
+/*左侧边栏*/
+.sidebar {
+  float: left;
+  width: 35%;
+  height: 100%;
+  background-color: #5dc3b1;
+  /*个人信息*/
+  /*技能点*/
+  /*联系方式*/ }
+  .sidebar h4 {
+    color: #1d7d71;
+    text-align: center;
+    font-size: 18px; }
+  .sidebar .basic-info {
+    width: 100%;
+    height: 70%;
+    margin-top: 50px;
+    /*照片*/
+    /*职位*/ }
+    .sidebar .basic-info p {
+      text-align: center;
+      color: #096254;
+      font-size: 18px;
+      margin: 6px auto; }
+    .sidebar .basic-info .photo {
+      width: 70%;
+      height: 24%;
+      margin: 0 auto;
+      border-bottom: 2px solid #1d7d71;
+      text-align: center;
+      /*姓名*/ }
+      .sidebar .basic-info .photo .my-photo {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin: auto;
+        background: url("../img/photo.jpg") no-repeat center #f0f2f1; }
+      .sidebar .basic-info .photo .name {
+        color: #f1eee8;
+        font-weight: 600;
+        font-size: 28px;
+        margin-top: 10px; }
+    .sidebar .basic-info .job-position {
+      width: 70%;
+      margin: 0 auto;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #218175; }
+  .sidebar .personal-info {
+    width: 70%;
+    height: 24%;
+    margin: 15px auto;
+    word-spacing: 6px;
+    font-size: 14px;
+    color: #096254;
+    /*标题*/
+    /*信息列表*/ }
+    .sidebar .personal-info .title {
+      text-align: center;
+      color: #f1eee8;
+      font-size: 18px;
+      margin-top: 20px; }
+    .sidebar .personal-info ul {
+      margin-top: 10px;
+      margin-left: 12px; }
+      .sidebar .personal-info ul li {
+        height: 25px; }
+  .sidebar .skill {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+    .sidebar .skill .skill-tip {
+      margin-top: 15px; }
+      .sidebar .skill .skill-tip li {
+        display: block;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        margin: 1px auto;
+        /*技能名*/
+        /*技能点数盒子*/
+        /*技能条数*/ }
+        .sidebar .skill .skill-tip li .skill-name {
+          float: left;
+          color: #f1eee8;
+          line-height: 20px;
+          width: 65px;
+          text-align: center; }
+        .sidebar .skill .skill-tip li .skill-wrap {
+          float: left;
+          width: 123px;
+          height: 12px;
+          border-radius: 15px;
+          background-color: #00A58C;
+          margin-top: 6px;
+          margin-left: 5px; }
+        .sidebar .skill .skill-tip li .skill-bar {
+          background-color: #f1eee8;
+          height: 12px;
+          border-radius: 15px 0 0 15px; }
+  .sidebar .contact {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 123px;
+    /*联系列表*/ }
+    .sidebar .contact .contact-me {
+      height: 108px;
+      margin-left: 18px; }
+      .sidebar .contact .contact-me li {
+        height: 15px;
+        float: left;
+        color: #f1eee8;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: left;
+        padding: 6px 0; }
+        .sidebar .contact .contact-me li span {
+          float: left;
+          line-height: 20px; }
+        .sidebar .contact .contact-me li a {
+          color: #f1eee8;
+          text-decoration: none; }
+
+/*右侧主要信息*/
+.main-info {
+  float: left;
+  width: 65%;
+  height: 100%;
+  background-color: #f0f2f1;
+  /*标题*/
+  /*统一边距*/
+  /*实习经历项目经验的详细信息*/
+  /*公司名和项目名*/
+  /*工作内容和项目经验详情*/ }
+  .main-info h1.title {
+    font-size: 24px;
+    color: #6c6b6b;
+    margin-bottom: 10px; }
+  .main-info > div {
+    padding-left: 35px;
+    padding-right: 35px; }
+  .main-info .detail-info a:hover {
+    text-decoration: underline; }
+  .main-info .company-name, .main-info .project-title {
+    font-size: 18px;
+    height: 20px;
+    font-weight: bold;
+    color: #5dc3b1; }
+  .main-info .experience-info, .main-info .work-content {
+    font-size: 14px;
+    color: #565656;
+    text-align: justify; }
+    .main-info .experience-info li, .main-info .work-content li {
+      display: block; }
+    .main-info .experience-info .skill-tag, .main-info .work-content .skill-tag {
+      line-height: 30px;
+      height: 30px;
+      font-size: 0;
+      margin-top: 5px; }
+      .main-info .experience-info .skill-tag span, .main-info .work-content .skill-tag span {
+        font-size: 13px;
+        color: #ffffff;
+        background-color: #40ad9a;
+        padding: 3px 18px;
+        margin-right: 10px;
+        border-radius: 3px; }
+
+/*项目经验*/
+.experience {
+  margin: 0 auto;
+  padding-top: 40px; }
+  .experience .detail-info {
+    margin: 10px auto; }
+    .experience .detail-info .experience-info {
+      line-height: 20px;
+      margin-top: 6px; }
+
+/*实习经历*/
+.internship {
+  padding-top: 25px;
+  /*工作时间*/ }
+  .internship .detail-info {
+    margin: 16px 0 25px 0; }
+  .internship .work-time {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0 6px 0; }
+
+.online-cv {
+  display: block;
+  color: #5dc3b1;
+  font-weight: bold; }
+
+.online-cv a {
+  font-size: 14px;
+  color: #5dc3b1;
+  text-decoration: none; }
+
+.online-cv {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
